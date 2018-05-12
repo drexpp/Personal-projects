@@ -1,0 +1,6 @@
+$(document).ready(function(){
+	let browserLocation;
+
+	browserLocation = navigator.geolocation.getCurrentPosition((pos) => console.log(pos));
+
+});
