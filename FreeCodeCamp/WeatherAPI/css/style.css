@@ -1,22 +1,25 @@
-#weather-box{
-  	height: 50%; /* Set your own height: percents, ems, whatever! */
-  	width: 50%; /* Set your own width: percents, ems, whatever! */ 
-  	/* overflow: auto; /* Recommended in case content is larger than the container */
-  	margin: auto; /* Center the item vertically & horizontally */
-  	position: absolute; /* Break it out of the regular flow */
-    top: 0; left: 0; bottom: 0; right: 0; /* Set the bounds in which to center it, relative to its parent/container */
-    text-align: center;
-	background: #007bff;
-	border-radius: 35px;
-	box-shadow: 10px 15px 20px rgb(0, 0, 0, 0.3);
+.site {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 5fr 1fr;
 }
 
-#title {
-	font-family: 'Carter One';
+.page-title {
+	grid-column: 2/3;
+	grid-row: 1/2;
 	text-align: center;
-	font-size: 30px;
+	font-family: 'Carter One';
+	font-size: 25px;
 }
+
+.page-main {
+	grid-column: 2/3;
+	grid-row: 3/4;
+	background: #007bff;
+	text-align:center;
+}
+
 
 body {
-	background-color: #b8daff;	
+	background-color: #b8daff;
 }
