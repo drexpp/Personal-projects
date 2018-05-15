@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Weather API</title>
+		<meta charset="utf-8">
 		<link href="./css/style.css" rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -15,8 +16,29 @@
 							LOCAL WEATHER FINDER
 						</p>
 				</div>
-				<div class="page-main">
-							<h3> Prueba </h3>
+				<div class="page-main">	
+							<div class="form">
+								<form onsubmit="return searchWeather()">
+									<input class="city" placeholder="City...">	
+									<button type="submit"> Find weather</button>
+								</form>
+							</div>
+							<div class="content">
+								<div id="name">
+									Name	<span class="name"></span>
+								</div>
+								<div id="temperature">
+									Temperature	<span
+										class="temperature"></span>
+								</div>
+								<div id="description">
+									Description	<span
+										class="description"></span>
+								</div>
+							</div>
+				</div>
+
+				<div class="space-footer">
 				</div>
 			</div>
 	</body>
