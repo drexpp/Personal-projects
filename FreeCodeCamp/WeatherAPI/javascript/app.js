@@ -1,4 +1,4 @@
-const API_KEY = "20586027c0c1d84ae062cf9a9a6dd486";
+const API_KEY = "YOUR API KEY";
 var browserLocation;
 var foundWeather;
 
