@@ -24,7 +24,7 @@
 
 }
 
-img{
+#loading-img{
 	height: 40px;
 	width: 40px;
 	display: inline;
@@ -32,10 +32,12 @@ img{
 	margin-top: 50px;
 }
 
-#img {
-	position: fixed;
-
+#weather-icon {
+	height: 80px;
+	width: 80px;
+	margin-left: 34%;
 }
+
 
 .form{
 	grid-column: 2/3;
@@ -58,7 +60,7 @@ body {
 }
 
 .name {
-	margin-left: 15%;
+	margin-left: 20%;
 }
 
 #name, #temperature{
@@ -68,7 +70,6 @@ body {
 }
 
 #description{
-	border-bottom: solid 1px;
     margin-right: 10%;
 }
 
