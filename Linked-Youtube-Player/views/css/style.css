@@ -1,0 +1,32 @@
+.main{
+	width: 57% !important;
+}
+
+h1 {
+	margin-bottom: 10%;	
+	text-align: center;
+}
+
+body {
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.btn {
+margin-left: 15%;
+}
+
+iframe{
+	width: 100%;
+	margin-bottom: 8%
+}
+
+a {
+	display: inline;
+	margin-left:2%;
+}
+
+.room-link{
+	width: 60%;
+}
+
