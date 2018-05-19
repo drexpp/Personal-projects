@@ -6,6 +6,9 @@ let remotePausedVideo = false;
 
 window.onload = function() {
     socket = io();
+	socket.on('joinResult', (response) => shareLink(response) );
+
+
     let url = document.location.href;
     let params = url.indexOf('?room=') !== -1? url.split('?room=')[1] : -1;
 
@@ -21,14 +24,7 @@ window.onload = function() {
 					console.log(params);
                     createYTVideoPlayer(params);
                     socket.emit('joinRoom', params);
-                }
-
-				// cerrar loading
-				socket.on('joinResult', function (response) {
-					shareLink(response);
-				});
-
-				$(".form").remove();
+                }			
             });
 
     }
@@ -46,11 +42,11 @@ window.onload = function() {
 
 
 function dontYouMissHome(){
-    $('.home').removeClass('invisible');
+    $('.home').removeClass('hidden');
 }
 
 function loadForm(){
-    $('.invisible:not(".home")').toggleClass('invisible');
+    $('.hidden:not(".home")').toggleClass('hidden');
 }
 
 function copyValueToClipboard(element) {
@@ -63,10 +59,6 @@ function copyValueToClipboard(element) {
 
 function newRoomEventHandler() {
     socket.emit('joinRoom', video_id);
-
-    socket.on('joinResult', function (response) {
-		shareLink(response);
-	});
 }
 
 function shareLink(response){
