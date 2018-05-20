@@ -1,3 +1,4 @@
+var api = require('./api/app_api');
 var express = require('express');
 var app = express();
 var http = require('http').Server(app);
@@ -12,6 +13,7 @@ io.on('connection', function(socket){
 	socketServer.eventsHandler(socket);
 });
 
+api.init(app);
 
 http.listen(port, function(){
   console.log(`listening on ${port}`);

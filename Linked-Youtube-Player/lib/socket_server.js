@@ -26,3 +26,5 @@ function joinRoom(socket, roomName) {
     console.log(`[${socket.id}] Joined to room '${roomName}'.`);
     socket.emit('joinResult', {url:`http://192.168.1.115:3000?room=${roomName}`});
 }
+
+exports.rooms = rooms;
