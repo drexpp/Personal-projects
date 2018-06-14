@@ -15,4 +15,5 @@ Ideas
   - **Have you ever wanted to watch a video with someone else at the same time?** [Project link](../../tree/master/Linked-Youtube-Player)
   - Deployed at [App link](https://obscure-wildwood-22526.herokuapp.com/)
  
-- Task list manager (developed using the default [react app structure](../../tree/master/TaskList)) it consists on a basic SPA made using react in which you can add new tasks that you have to do. Deployed at [App link]()
+- Task list manager (developed using the default [react app structure](../../tree/master/TaskList)) it consists on a basic SPA made using react in which you can add new tasks that you have to do.
+   - Deployed at [App link]()
