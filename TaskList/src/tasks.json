@@ -1,0 +1,28 @@
+{
+  "tasks":[
+    {
+      "title": "task 1",
+      "responsible": "Mark",
+      "description": "programar con react",
+      "priority": "high"
+    },
+    {
+      "title": "task 2",
+      "responsible": "John",
+      "description": "recoger platos",
+      "priority": "low"
+    },
+    {
+      "title": "task 3",
+      "responsible": "Ivan",
+      "description": "hacer cama",
+      "priority": "medium"
+    },
+    {
+      "title": "task 4",
+      "responsible": "Pepe",
+      "description": "drink beer",
+      "priority": "high"
+    }
+  ]
+}
