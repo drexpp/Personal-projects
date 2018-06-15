@@ -4,14 +4,16 @@ import './App.css';
 
 import { tasks } from './tasks.json';
 import Clock from './components/Timer';
+import TaskForm from './components/TaskForm'
 
 class App extends Component {
   constructor(){
     //Inherit all react functionality (needed)
-    super();
+    super()
     this.state = {
       tasks
     }
+    this.handleAddTask = this.handleAddTask.bind(this)
   }
 
   selectPriorityColor(value){
@@ -22,6 +24,13 @@ class App extends Component {
     if(value === "low")
       return <span className="badge badge-pill badge-success">{value}</span>
   }
+
+  handleAddTask(task){
+    this.setState({
+      tasks: [...this.state.tasks, task]
+    })
+  }
+
 
   render() {
     const tasks = this.state.tasks.map((task) =>{
@@ -50,10 +59,22 @@ class App extends Component {
           </button>
           <Clock className="pull-right"/>
         </nav>
-        <img src={logo} className="App-logo" alt="logo"/>
+
+
         <div className="container">
           <div className="row mt-4">
-            {tasks}
+
+            <div className="col-md-3">
+                <img src={logo} className="App-logo" alt="logo"/>
+                <TaskForm onAddTask={this.handleAddTask}/>
+            </div>
+
+
+            <div className="col-md-9">
+              <div className="row">
+                {tasks}
+              </div>
+            </div>
           </div>
         </div>
       </div>
