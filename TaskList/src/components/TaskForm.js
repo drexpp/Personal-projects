@@ -26,6 +26,7 @@ class TaskForm extends Component {
   handleSubmit(e){
     e.preventDefault()
     this.props.onAddTask(this.state)
+	this.setState({priority: 'low'})
   }
 
   resetBuilder() {
@@ -67,6 +68,7 @@ class TaskForm extends Component {
           </div>
           <div className="form-group">
               <select
+				id = "select-form"
                 name="priority"
                 className="form-control"
                 onChange={this.handleInput}
