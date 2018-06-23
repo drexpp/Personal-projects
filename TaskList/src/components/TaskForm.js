@@ -26,7 +26,7 @@ class TaskForm extends Component {
   handleSubmit(e){
     e.preventDefault()
     this.props.onAddTask(this.state)
-	this.setState({priority: 'low'})
+	  this.setState({priority: 'low'})
   }
 
   resetBuilder() {
