@@ -10,7 +10,7 @@ FreeCodeCamp
 
 Codefights
 ---
-- I use this website to accomplish coding challenges related to technical interview questions and also practising my python skills. [Project link](../../tree/master/Codefights/Interview%20questions)
+- I use this website to accomplish coding challenges related to technical interview questions and also practising my python skills.[Codefights link](https://codefights.com/interview-practice/) [Project link](../../tree/master/Codefights/Interview%20questions)
 
 Ideas
 ---
