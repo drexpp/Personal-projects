@@ -8,6 +8,10 @@ FreeCodeCamp
 - Random quote generator (using forismatic API and JQuery) [Project link](../../tree/master/FreeCodeCamp/WeatherAPI) [Deployed web](https://codepen.io/drexpz/pen/rpPoaB)
 - Weather API searcher (using OpenWeatherMap API, CSS grid, JQuery,...) [Project link](../../tree/master/FreeCodeCamp/WeatherAPI)
 
+Codefights
+---
+- I use this website to accomplish coding challenges related to techincal interview questions and also practising python skills. [Project link](../../tree/master/Codefights/Interview%20questions)
+
 Ideas
 ---
 
