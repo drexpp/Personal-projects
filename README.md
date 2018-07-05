@@ -26,6 +26,7 @@ Ideas
   - Deployed at [App link](https://safe-atoll-72115.herokuapp.com/)
  
 - Task list manager (developed using the default [react app structure](../../tree/master/TaskList)) it consists on a basic SPA made using react in which you can add new tasks that you have to do.
+   - [Project link](../../tree/master/TaskList)
    - Deployed at [App link](https://calm-retreat-82938.herokuapp.com/)
    
 - Monga (An application for saving files online, similar to Mega) (using node.js, express,  passportjs (Login), mongoDB). Made together with my partner [therealnosth](https://github.com/therealnosth)
