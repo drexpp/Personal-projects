@@ -20,4 +20,4 @@ Ideas
   - Deployed at [App link](https://obscure-wildwood-22526.herokuapp.com/)
  
 - Task list manager (developed using the default [react app structure](../../tree/master/TaskList)) it consists on a basic SPA made using react in which you can add new tasks that you have to do.
-   - Not deployed yet
+   - Deployed at [App link](https://calm-retreat-82938.herokuapp.com/)
