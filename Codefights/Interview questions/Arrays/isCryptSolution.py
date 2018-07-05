@@ -9,7 +9,6 @@ def isCryptSolution(crypt, solution):
                 secondWord += letterTranslated(l, solution)
             else:
                 thirdWord += letterTranslated(l, solution)
-    print(firstWord +' '+secondWord+' '+thirdWord)
     if len(firstWord) == 1 and len(firstWord) == 1:
         if firstWord[:1] == "0" or secondWord[:1] == "0":
             return True
