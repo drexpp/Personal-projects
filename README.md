@@ -25,7 +25,7 @@ Ideas
   - [Project link](../../tree/master/Real_Time_Chat/Chat%20app)
   - Deployed at [App link](https://safe-atoll-72115.herokuapp.com/)
  
-- Task list manager (developed using the default [react app structure](../../tree/master/TaskList)) it consists on a basic SPA made using react in which you can add new tasks that you have to do.
+- Task list manager (developed using the default [react app structure](https://github.com/facebook/create-react-app)) it consists on a basic SPA made using react in which you can add new tasks that you have to do.
    - [Project link](../../tree/master/TaskList)
    - Deployed at [App link](https://calm-retreat-82938.herokuapp.com/)
    
