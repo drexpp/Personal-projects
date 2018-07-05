@@ -5,12 +5,12 @@ A collection of different web pages and projects that I have developed.
 FreeCodeCamp
 ---
 
-- Random quote generator (using forismatic API and JQuery) [Project link](../../tree/master/FreeCodeCamp/WeatherAPI) [Deployed web](https://codepen.io/drexpz/pen/rpPoaB)
+- Random quote generator (using forismatic API and JQuery) [Project link](../../tree/master/FreeCodeCamp/WeatherAPI) || [Deployed web](https://codepen.io/drexpz/pen/rpPoaB)
 - Weather API searcher (using OpenWeatherMap API, CSS grid, JQuery,...) [Project link](../../tree/master/FreeCodeCamp/WeatherAPI)
 
 Codefights
 ---
-- I use this website to accomplish coding challenges related to technical interview questions and also practising my python skills.[Codefights link](https://codefights.com/interview-practice/) [Project link](../../tree/master/Codefights/Interview%20questions)
+- I use this website to accomplish coding challenges related to technical interview questions and also practising my python skills.[Codefights link](https://codefights.com/interview-practice/) || [Project link](../../tree/master/Codefights/Interview%20questions)
 
 Ideas
 ---
@@ -19,7 +19,7 @@ Ideas
   - **Have you ever wanted to watch a video with someone else at the same time?** [Project link](../../tree/master/Linked-Youtube-Player)
   - Deployed at [App link](https://obscure-wildwood-22526.herokuapp.com/)
   
-- Real time chat application (using node.js, express, socket.io and deployed with Heroku) Originally this idea was taken from the [book](https://www.manning.com/books/node-js-in-action) and was heavily simplified later on since our team made use of a modified version of the chat application found in the book for the subject "Design and testing" of our University. 
+- Real time chat application (using node.js, express, socket.io and deployed with Heroku) Originally this idea was taken from the next [book](https://www.manning.com/books/node-js-in-action) and was heavily simplified later on since our team made use of a modified version of the chat application found in the book for the subject "Design and testing" of our University. 
 
   - I made a [documentation](../../tree/master/Real_Time_Chat/Documentation(explanatory)/Documento%20A%2B%20Hackathon%20GRUPO%2023.pdf) for that same project explaining how it works.
   - [Project link](../../tree/master/Real_Time_Chat/Chat%20app)
