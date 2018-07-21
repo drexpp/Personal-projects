@@ -1,7 +1,7 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Technologies from '../components/technologies'
 import ContactInfo from '../components/ContactInfo'
+import NavigationRight from '../components/NavigationRight'
 
 const IndexPage = () => (
   <div className="site" draggable="true">
@@ -17,6 +17,7 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
+    <NavigationRight page="2"/>
   </div>
 )
 
