@@ -14,7 +14,6 @@ app.use(session({
 	saveUninitialized: false
 }))
 
-
 app.set('views', __dirname + '/public');
 app.set('view engine', 'ejs')
 
@@ -34,6 +33,11 @@ app.use(passport.session())
 /* Calling routes here so they can use req.isAuthenticated()) */
 app.use(express.static(__dirname + '/public'))
 app.get('/', (req, res) => 	res.render('login', { message: ""}));
+
+app.post('/', passport.authenticate('local', {failureRedirect: '/', 
+	failureFlash: true}),
+	(req, res) => res.redirect('success'));
+
 app.get('/success', (req, res) => {
 	if(req.isAuthenticated()){
 		res.redirect('/userFiles')
@@ -74,7 +78,9 @@ app.get('/upload', (req, res) => {
 		res.render('upload_picture')
 });
 app.post('/upload', upload.single('file'), (req, res) => {
-	if(req.file.originalname.includes(".jpeg") || req.file.originalname.includes(".jpg")){
+	if(req.file.originalname.includes(".jpeg") || 
+		req.file.originalname.includes(".jpg")){
+
 		let newPicture = new userPictures({
 			user_id: req.user.username,
 			filename: req.file.originalname,
@@ -113,7 +119,8 @@ app.get('/userFiles', async (req, res) => {
 
 			for (const pic of dbdata){
 				console.log(pic.img.contentType)
-				pics = [...pics,[(pic.img.data).toString('base64'), pic.img.contentType]]
+				pics = [...pics,[(pic.img.data).toString('base64'), 
+									pic.img.contentType]]
 			}
 		});
 		//Retriving files from database
@@ -123,7 +130,8 @@ app.get('/userFiles', async (req, res) => {
 			if (err) throw (err);
 
 			for (const file of files){
-				fils = [...fils, [(file.img.data).toString('base64'), file.img.contentType]]
+				fils = [...fils, [(file.img.data).toString('base64'), 
+									file.img.contentType]]
 			}
 		});
 		res.render('main', {pictures: pics, files: fils });
@@ -206,7 +214,3 @@ passport.use('local', new LocalStrategy({
 		return done(null, user)
 	})
 }))
-
-app.post('/', passport.authenticate('local', {failureRedirect: '/',
-											  failureFlash: true}),
-	(req, res) => res.redirect('success'))
