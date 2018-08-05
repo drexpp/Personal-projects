@@ -29,5 +29,5 @@ Ideas
    - [Project link](../../tree/master/TaskList)
    - Deployed at [App link](https://calm-retreat-82938.herokuapp.com/)
    
-- Monga (An application for saving files online, similar to Mega) (using node.js, express,  passportjs (Login), mongoDB). Made together with my partner [therealnosth](https://github.com/therealnosth)
+- Monga (An application for saving files online, similar to Mega) (using node.js, express (and express-session), passportjs (Login), multer (file upload), mongoDB). Made together with my partner [therealnosth](https://github.com/therealnosth)
    - 🚧 Currently under construction 🚧
