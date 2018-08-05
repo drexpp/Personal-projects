@@ -107,7 +107,7 @@ app.post('/upload', upload.single('file'), (req, res) => {
 
 app.get('/userFiles', async (req, res) => {
 	if(!req.isAuthenticated()){
-		res.redirect('/')
+		res.render('login', { message: "You don't have access" })
 	}else{
 		let pics = [];
 		let fils = [];
@@ -126,14 +126,16 @@ app.get('/userFiles', async (req, res) => {
 		//Retriving files from database
 		await userFiles.find({
 			user_id: req.user.username 
-		},(err, files) => {
+		}, (err, files) => {
 			if (err) throw (err);
 
 			for (const file of files){
+				console.log(file.img.contentType)
 				fils = [...fils, [(file.img.data).toString('base64'), 
 									file.img.contentType]]
 			}
 		});
+		console.log(fils)
 		res.render('main', {pictures: pics, files: fils });
 	}
 })
