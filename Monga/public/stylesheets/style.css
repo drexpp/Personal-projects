@@ -17,3 +17,23 @@
 	margin-top: -2%;
 	margin-bottom: 15%
 }
+
+.alert{
+	margin-top: 4%;
+}
+
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+label {
+    margin-top: 1rem;
+    display: block;
+}
+
+.images{
+	width: 100px;
+	height: 100px;
+}
