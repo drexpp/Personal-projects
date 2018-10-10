@@ -12,9 +12,9 @@ Codefights
 ---
 - I use this website to accomplish coding challenges related to technical interview questions and also practising my python skills.[Codefights link](https://codefights.com/interview-practice/) || [Project link](../../tree/master/Codefights/Interview%20questions)
 
-ICPC 
+ICPC (International collegiate programming contest)
 ---
-- International collegiate programming contest, I enjoy watching and solving problems from this competition.
+- I enjoy watching and solving problems from this competition.
 
 Ideas
 ---
