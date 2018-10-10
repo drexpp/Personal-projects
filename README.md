@@ -12,6 +12,10 @@ Codefights
 ---
 - I use this website to accomplish coding challenges related to technical interview questions and also practising my python skills.[Codefights link](https://codefights.com/interview-practice/) || [Project link](../../tree/master/Codefights/Interview%20questions)
 
+ICPC 
+---
+- International collegiate programming contest, I enjoy watching and solving problems from this competition.
+
 Ideas
 ---
 
@@ -31,3 +35,5 @@ Ideas
    
 - Monga (An application for saving files online, similar to Mega) (using node.js, express (and express-session), passportjs (Login), multer (file upload), mongoDB). Made together with my partner [therealnosth](https://github.com/therealnosth)
    - 🚧 Currently under construction 🚧
+   
+- Web browser extension which you can use to set a timer to play or pause a video after a certain amount of time set by the user.
