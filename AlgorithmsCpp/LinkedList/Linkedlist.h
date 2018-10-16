@@ -4,6 +4,8 @@ class Node{
             Node* next;
         public:
             Node(int value);
+
+            void print();
     };
 
     class LinkedList{
@@ -18,5 +20,7 @@ class Node{
             int size() const;
             bool empty() const;
             void print() const;
+            Node* find(int value) const;
             void append(int value);
+            void after(Node *a, int value);
     };
