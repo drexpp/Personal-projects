@@ -12,6 +12,10 @@ Codefights
 ---
 - I use this website to accomplish coding challenges related to technical interview questions and also practising my python skills.[Codefights link](https://codefights.com/interview-practice/) || [Project link](../../tree/master/Codefights/Interview%20questions)
 
+Algorithm implementation
+---
+-A different number of algorithms developed in C++
+
 ICPC (International collegiate programming contest)
 ---
 - I enjoy watching and solving problems from this competition.
