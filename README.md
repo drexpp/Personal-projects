@@ -38,5 +38,5 @@ Ideas
    - Deployed at [App link](https://calm-retreat-82938.herokuapp.com/)
    
 - Monga (An application for saving files online) (using node.js, express, passportjs (Login), multer and GridFs storage for file upload, mongoDB (and mongoose) for database and schemas). Made together with my partner [therealnosth](https://github.com/therealnosth)
-   - 🚧 Currently under construction 🚧
+   - 🚧 Currently under construction, it works but view is not yet done with react  🚧
    
