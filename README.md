@@ -37,7 +37,6 @@ Ideas
    - [Project link](../../tree/master/TaskList)
    - Deployed at [App link](https://calm-retreat-82938.herokuapp.com/)
    
-- Monga (An application for saving files online, similar to Mega) (using node.js, express (and express-session), passportjs (Login), multer (file upload), mongoDB). Made together with my partner [therealnosth](https://github.com/therealnosth)
+- Monga (An application for saving files online) (using node.js, express, passportjs (Login), multer and GridFs storage for file upload, mongoDB (and mongoose) for database and schemas). Made together with my partner [therealnosth](https://github.com/therealnosth)
    - 🚧 Currently under construction 🚧
    
-- Web browser extension which you can use to set a timer to play or pause a video after a certain amount of time set by the user.
